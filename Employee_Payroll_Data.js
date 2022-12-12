@@ -38,7 +38,8 @@ class EmployeePayrollData
     get notes(){ return this._notes;}
     set notes(notes){ this._notes = notes;}
 
-    toString(){
+    toString()
+    {
         return "Name : "+this.name+", profile image : "+this.profileImage+", gender : "+this.gender
         +", Department : "+this.department+ ", Salary : "+this.salary+" , start date : "+ this.startDate
         +", notes : "+this.notes;
