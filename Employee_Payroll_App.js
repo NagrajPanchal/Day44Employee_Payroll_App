@@ -24,6 +24,7 @@ salary.addEventListener('input', function() {
 });
 });
 
+// On Save
 
 const save = () => {
     let employeePayrollData;
